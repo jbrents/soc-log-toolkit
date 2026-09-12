@@ -1,0 +1,1 @@
+This week I set up an old optiplex with Ubuntu Server, used an old Eeros router that I had laying around to set up an isolated network, updated Ubuntu Server, installed Nginx, contacted nginx, checked access log and it showed my activity from my laptop

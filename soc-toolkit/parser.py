@@ -164,7 +164,7 @@ if __name__ == "__main__":
 
     # Step 2 sanity check: read raw lines from a log file and count them.
     # Usage: python3 parser.py [path-to-log-file]
-    log_path = sys.argv[1] if len(sys.argv) > 1 else "../sample_data/auth.log.sample"
+    log_path = sys.argv[1] if len(sys.argv) > 1 else "../sample_data/auth.log.sample2"
     print(f"\nReading lines from: {log_path}")
     count = 0
     for raw in read_lines(log_path):
@@ -188,3 +188,5 @@ if __name__ == "__main__":
     for e in events:
         if e.event_type != "other":
             print(f"  {e.timestamp} | {e.event_type:18s} | user={e.user} ip={e.source_ip}")
+
+
